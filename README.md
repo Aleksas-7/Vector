@@ -56,18 +56,34 @@ void clear () {s = 0;}
 </details>
 
 <details>
-<summary> push_back spartos analizė </summary>
+<summary> Push_back spartos analizė </summary>
+  
+| push_back() | 10_000 | 100_000 | 1_000_000 | 10_000_000 |
+|-------------|--------|---------|-----------|------------|
+| std::vector | 0      | 0,001   | 0,013     | 0,133      |
+| Vector      | 0      | 0       | 0,01      | 0,139      |
+  
 </details>
 
 <details>
-<summary> atminties perskirstymas </summary>
+<summary> Atminties perskirstymas </summary>
   
-  20 su 1_000_000
-  17 su 100_000
-  14 su 10_000
+  Atminties perskirtymas vyksta 20 kai failo dydis: 1_000_000
+  Atminties perskirtymas vyksta 17 kai failo dydis: 100_000
+  Atminties perskirtymas vyksta 14 kai failo dydis: 10_000
   
 </details>
 
 <details>
 <summary> std::vector ir Vector palyginimas v2.0 versijoje </summary>
+  
+| Failo dydis 100_000     | std::vector | Vector |
+|-------------------------|-------------|--------|
+| failo sukurimas         | 0.333       | 0.351  |
+| failo nuskaitymas       | 0.398       | 0.541  |
+| rikiavimas              | 0.107       | 0.107  |
+| konteinerio padalinimas | 0.037       | 0.063  |
+| konteinerių išrašymas   | 1.484       | 1.489  |
+| Visa programa           | 2.033       | 2.208  |
+  
 </details>
