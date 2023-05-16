@@ -1,5 +1,7 @@
 # Vector
 
+Vector header failas yra Vector_testing/include/Vector.h
+
 <details>
 <summary> 5 Vector clasės funkcijos </summary>
   
