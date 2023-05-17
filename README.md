@@ -70,9 +70,11 @@ void clear () {s = 0;}
 <details>
 <summary> Atminties perskirstymas </summary>
   
-  Atminties perskirtymas vyksta 20 kai failo dydis: 1_000_000
-  Atminties perskirtymas vyksta 17 kai failo dydis: 100_000
-  Atminties perskirtymas vyksta 14 kai failo dydis: 10_000
+  Atminties perskirtymas vyksta 20 kartų kai failo dydis: 1_000_000
+  
+  Atminties perskirtymas vyksta 17 kartų kai failo dydis: 100_000
+  
+  Atminties perskirtymas vyksta 14 kartų kai failo dydis: 10_000
   
 </details>
 
